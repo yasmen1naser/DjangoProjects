@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+{% load static %}
+<head>
+    <title>One Book</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+
+</head>
+<body>
+
+    <a href="{% url 'books.index' %}">Go Back</a>
+
+    <h1>Book Details</h1>
+
+    <h2>Internet & Web</h2>
+    <h3>Author: Name</h3>
+
+    <p>Book description here</p>
+
+    <img src="book1.jpg" width="200">
+
+</body>
+</html>
