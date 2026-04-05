@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+
+.custom-link {
+    display: block;
+    padding: 10px;
+    background-color: lightgray;
+    margin: 10px;
+    text-decoration: none;
+}
+    .custom-link:visited {
+        color: purple;
+    }
+
+    .custom-link:hover {
+        background-color: yellow;
+    }
+
+    .custom-link:active {
+        color: red;
+    }
